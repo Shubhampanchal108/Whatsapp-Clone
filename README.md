@@ -1,25 +1,114 @@
-﻿## Build Chat App with React, Socket.io, Nodejs, Redux-Toolkit, MongoDB (2024)
+﻿# WhatsApp Clone (MERN Stack)
 
-![Alt text](Full%20Stack%20Chat%20App.png?raw=true "Title")
+## 📌 Overview
 
-Learn to build a real-time messaging Chat App using React, Socket.io, Node.js, Redux-Toolkit, and MongoDB. This tutorial series covers everything from setup to implementation, offering valuable insights and practical skills. Whether you're a beginner or an experienced developer, join us to take your React and Node.js expertise to the next level! Subscribe now and start building your own real-time messaging platform.
+This is a fully functional **WhatsApp Clone** built using the **MERN (MongoDB, Express, React, Node.js) stack**. It supports real-time messaging, authentication, and a responsive UI similar to WhatsApp Web.
 
-# Server .env file
+## 🚀 Features
 
+- 🔹 **User Authentication** (JWT & bcrypt)
+- 🔹 **Real-time Messaging** (Socket.io)
+- 🔹 **One-on-One & Group Chats**
+- 🔹 **Media Sharing** (Images, Videos, Documents)
+- 🔹 **User Status & Last Seen**
+- 🔹 **Profile Management**
+- 🔹 **Typing Indicators**
+- 🔹 **Dark Mode Support**
+
+## 🛠️ Tech Stack
+
+### **Frontend (React.js)**
+
+- React with Hooks
+- Redux for State Management
+- Tailwind CSS / Material UI
+- Socket.io Client
+
+### **Backend (Node.js & Express.js)**
+
+- Express.js Framework
+- MongoDB with Mongoose
+- JWT Authentication
+- bcrypt for Password Hashing
+- Cloudinary for Media Uploads
+- Socket.io for Real-time Communication
+
+### **Database**
+
+- MongoDB (Atlas or Local)
+
+## 🔧 Installation & Setup
+
+### **1️⃣ Clone the Repository**
+
+```bash
+https://github.com/Shubhampanchal108/Whatsapp-Clone
+```
+
+### **2️⃣ Server Setup**
+
+```bash
+cd server  # Navigate to backend folder
+npm install  # Install dependencies
+```
+
+#### **Create a .env file in the server folder:**
+
+```
 FRONTEND_URL = <Frontend URL>
 MONGODB_URI  = <Mongodb URI>
 JWT_SECREAT_KEY = <JWT Secreat Key>
+```
 
-# client .env file
+```bash
+npm start  # Start backend server
+```
 
+### **3️⃣ Frontend Setup**
+
+```bash
 REACT_APP_CLOUDINARY_CLOUD_NAME = <Cloudinary cloud name>
 REACT_APP_BACKEND_URL = <Backend URL>
+```
 
-# Assets File
-Google Drive : https://drive.google.com/drive/folders/1mu6WFx63mlsbbwugdWgRGII_1YPruL00?usp=sharing 
+## 🛠️ Usage
 
+- Register or log in with a valid email and password.
+- Start a chat with another registered user.
+- Send messages, images, and documents in real-time.
+- View user status and typing indicators.
+- Update your profile and settings.
 
+## 📸 Screenshots
 
+*![Alt text]\(Full%20Stack%20Chat%20App.png?raw=true "Title")*
 
+## 🚀 Deployment
 
+### **Frontend (Vercel/Netlify)**
+
+- Build and deploy using **Vercel** or **Netlify**.
+
+```bash
+npm run build
+```
+
+### **Backend (Render/Heroku)**
+
+- Deploy using **Render**, **Heroku**, or **VPS**.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork and submit PRs.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 📩 Contact
+
+For any questions or suggestions:
+
+- 🔗 GitHub: [https://github.com/Shubhampanchal108/](https://github.com/Shubhampanchal108/)
+- 📧 Email: your-panchalshubham2015\@gmail.com
 
