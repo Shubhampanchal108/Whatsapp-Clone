@@ -81,7 +81,7 @@ REACT_APP_BACKEND_URL = <Backend URL>
 
 ## 📸 Screenshots
 
-*![Alt text]\(Full%20Stack%20Chat%20App.png?raw=true "Title")*
+![Alt text]\(Full%20Stack%20Chat%20App.png?raw=true "Title")
 
 ## 🚀 Deployment
 
