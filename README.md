@@ -81,7 +81,8 @@ REACT_APP_BACKEND_URL = <Backend URL>
 
 ## 📸 Screenshots
 
-![Alt text]\(App.png?raw=true "Title")
+![Alt text](App.png?raw=true "Title")
+
 
 ## 🚀 Deployment
 
